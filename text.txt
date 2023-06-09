@@ -1,0 +1,1727 @@
+ MODULE 3 
+
+Q1. Explain Business case for IP.  
+or 
+Write a short note on Business case for IP . 
+ 
+Answer 
+
+
+ 
+
+
+in the cloud or in locations that may be distributed or c entralized.
+ 
+
+
+ 
+Dedicated applications are then run over virtualized or traditional operating systems.  
+
+
+ 
+These lightweight applications communicate with the data center servers.   
+
+
+ 
+This is how and why the Internet Protocol (IP) suite started playing a key architec tural role. IP was 
+not only preferred in the IT markets but also for the OT environment.
+  
+
+ 
+
+The Key Advantages of Internet Protocol  
+
+ 
+Open and standards-based 
+
+
+ 
+The Internet of Things creates a new paradigm in which devices, applications, and users can leverage  
+a  large  set  of  devices  and  functionalities  while  guaranteeing  interchangeability,  interoperability, 
+security, and management.  
+
+
+ 
+This calls for implementation, validation, and deployment of open, standards -based solutions. 
+
+
+ 
+While  many  standards  development  organizations  (SDOs)  are  working  on  Internet  of  Things 
+definitions,  frameworks,  applications,  and  technologies,  the  role  of  the  Internet  Engineering  Task 
+Force (IETF) as the foundation for specifying and optimizing the network and transport layers.  
+
+
+ 
+The IETF is an open standards body that focuses on the development of the Internet Protocol suite 
+and related Internet technologies and protocols.  
+ 
+
+Versatile 
+
+
+ 
+A large spectrum of access technologies is available to offer  
+
+  
+
+
+ 
+Additional protocols and technologies are also used to transport IoT datathrough backhaul links and 
+in the data center. 
+
+
+ 
+So, the layered IP architecture is well equipped to cope with any type of physicaland data link layers.  
+
+
+ 
+This makes IP ideal as a long term investment because various protocols atthese layers can be used 
+in a deployment now and over time, without requiring changes to the whole solution architecture and 
+data flow. 
+ 
+
+Ubiquitous 
+
+
+ 
+All  recent  operating  system  releases,  from  general-purpose  computers and  servers  to  lightweight 
+embedded systems (TinyOS, Contiki, and so on), have an integrated dual (IPv4 and IPv6) IP stack 
+that gets enhanced over time.  
+
+
+ 
+In addition, IoT application protocols in many industrial OT solutions have been updated in recent 
+years to run over IP. 
+
+
+ 
+Recent standardization efforts in several areas are adding IPv6.  
+
+
+ 
+IP  is  the  most  pervasive  protocol  when  supported  across  the  various  IoT  solutions  and  industry 
+verticals. 
+ 
+
+Scalable 
+
+
+ 
+As  the  common  protocol  of  the  Internet,  IP  has  been  massively  deployed  and  tested  for  robust 
+scalability. 
+
+
+ 
+Millions of private and public IP infrastructure nodes have been operational for years, offering strong 
+foundations for those not familiar with IP network management.  
+ 
+
+ ate and public infrastructures may require optimizations and 
+design rules specific to the new devices.  
+
+
+ 
+Recent evolution -voice and video endpoints are also integrated over IP.  
+ 
+
+Manageable and highly secure  
+
+
+ 
+Communications infrastructure requires appropriate  management and security capabilities for proper 
+operations. 
+
+
+ 
+One  of  the  benefits  that  comes  from  30  years  of  operational  IP  networks  is  the  well-understood 
+network management and security protocols, mechanisms, and toolsets that are widely available.  
+
+
+ 
+Adopting IP network management also brings an operational business application to OT.  
+
+
+ 
+Well-known network and security management tools are easily leveraged with an IP network layer.  
+
+
+ 
+Industry  is  challenged  in  securing  constrained  nodes,  handling  legacy  OT  protocols  and  scaling 
+operations. 
+ 
+
+Stable and resilient 
+
+
+ 
+IP has been around for 30 years, and it is clear that IP is a workable solution.  
+
+
+ 
+IP has a large and well-established knowledge base and, more importantly, it has been used for years 
+in critical infrastructures, such as financial and defense networks.  
+
+
+ 
+In addition, IP has been deployed for critical services, such as voice and video, which have already 
+transitioned from closed environments to open IP standards.  
+
+
+ 
+Finally, its stability and resiliency benefit from  the large ecosystem of IT professionals who can help 
+design, deploy, and operate IP -based solutions. 
+ 
+
+
+  
+
+
+ 
+When  developing  IoT  solutions  and  products  targeting  the  consumer  market,  vendors  know  that 
+
+
+and devices will occur predominantly over broadband and mobile 
+wireless infrastructure. 
+
+
+ 
+The main consumer devices range from smart phones to tablets and PCs.  
+
+
+ 
+The common protocol that links IoT in the consumer space to these devices is IP.  
+ 
+
+The Innovation factor 
+
+
+ 
+The past two decades have largely established the adoption of IP as a factor for increased innovation.  
+
+
+ 
+IP is the underlying protocol for applications ranging from file transfer and e -mail to the World Wide 
+Web, e-commerce, social networking, mobility , and more. 
+
+
+ 
+Even  the  recent  computing  evolution  from  PC  to  mobile  and  mainframes  to  cloud  services  are 
+perfect demonstrations of the innovative ground enabled by IP.  
+
+
+ 
+Innovations in IoT can also leverage an IP underpinning.  
+ 
+
+Adoption or Adaptation of the In ternet Protocol 
+
+
+ 
+Adaptation  means  application  layered  gateways  (ALGs)  must  be  implemented  to  ensure the 
+translation between non -IP and IP layers. 
+
+
+ 
+Adoption  involves  replacing  all  non-IP  layers  with  their  IP  layer  counterparts,  simplifying  the 
+deployment model and operations. 
+ 
+We consider  the  following  factors  when  trying  to  determine  which  model  is  best  suited  for last-mile 
+connectivity: 
+ 
+
+Bidirectional versus unidirectional data flow:  
+
+
+ 
+While  bidirectional  communications  are  generally  expected,  some  last-mile  technologies  offer 
+optimization for unidirectional communication.  
+
+
+ 
+For example, different classes of IoT devices, as defined in RFC 7228, may only infrequently need to 
+report a few bytes of data to an application.  
+ 
+These sorts of devices, particularly ones that communicate through LPWA technologies, include fire 
+alarms sending alerts or daily test reports, electrical switches being pushed on or off, and water or 
+gas meters sending weekly indexes.  
+ 
+
+ 
+Overhead for last-mile communications paths  
+
+
+ 
+IP adoption implies a layered architecture with a per-packet overhead that varies depending on the IP 
+version. 
+
+
+ 
+IPv4 has 20 bytes of header at a minimum, and IPv6 has 40 bytes at the IP network layer.  
+
+
+ 
+For the IP transport layer, UDP has 8 bytes of header overhead, while TCP has a minimum of 20 
+bytes. 
+
+
+ 
+If the data to be forwarded by a device is infrequent and only a few bytes, we can potentially have 
+more header overhead than device data
+ 
+again, particularly in the case of LPWA technologies.  
+
+
+ 
+Consequently, decide whether the IP a doption model is necessary and how it can be optimized.  
+ 
+
+Data flow model 
+
+
+ 
+One benefit of the IP adoption model is the end -to-end nature of communications.  
+
+
+ 
+Any node can easily exchange data with any other node in a network, although security, privacy, and 
+ot
+
+ -to-
+
+ 
+
+
+ 
+
+  
+
+
+ 
+In  this  case,  the  adaptation  model  can  work  because  translation  of  traffic  needs  to occur  only 
+between the end device and one or two application servers.  
+
+
+ 
+Depending  on  the  network  topology  and  the  data  flow  needed,  both  IP  adaptation and  adoption 
+models have roles to play in last -mile connectivity. 
+ 
+
+Network diversity 
+
+
+ 
+One  of  the  drawbacks  of  the  adaptation  model  is  a  general  dependency  on  single  PHY  &  MAC 
+layers. For example, ZigBee devices must only be deployed in ZigBee network islands.  
+
+
+ 
+Therefore, a deployment must consider which applications have to run on the gateway connecting 
+these islands and the rest of the world. 
+
+
+ 
+Integration  and  coexistence  of  new  physical  and  MAC  layers  or  new  applications  impact  how 
+deployment and operations have to be planned.  
+ 
+ 
+
+Q2. List and explain the advantages of Internet protocol.  
+ 
+Answer 
+Refer to The Key Advantages of  Internet Protocol  in Q1. 
+ 
+Q3. Discuss need for optimization.  
+Or 
+Explain need for optimization.  
+ 
+Answer 
+
+Optimizations are needed at various layers of the IP stack to handle the restrictions that are present in IoT 
+networks. 
+
+ 
+
+Constrained Nodes  
+
+
+ 
+In  IoT  solutions,  different  classes  of  devices  coexist.  Depending  on  its  functions  in  a  network,  a 
+
+
+
+in an IT environment. 
+ 
+Another limit is that this network protocol stack on an IoT node may be required to communicate 
+through an unreliable path.  
+
+
+ 
+Even if a full IP stack is available on the node, this causes problems such as limited or unpredictable 
+throughput and low convergence when a topology change occurs.  
+
+
+ 
+Finally, power consumption is a key characteristic of constrained nodes.   
+
+
+ 
+Many  IoT  devices  are  battery  powered,  with  lifetime  battery  requirements  varying  from  a  few 
+months to 10+ years. 
+
+
+ 
+This drives the selection of networking technologies since high-speed ones, such as Ethernet, Wi-Fi, 
+and cellular, are not (yet) capable of multi -year battery life. 
+
+
+ 
+Current  capabilities  practically  allow  less  than  a  year  for  these  technologies  on  battery-powered 
+nodes. 
+ 
+IoT constrained nodes can be classified as follows:  
+
+ 
+a) Devices that are very constrained in resources, may communicate infrequently to transmit a few 
+bytes, and may have limited security and management capabilities  
+
+
+ 
+This drives the need for the IP adaptation model, where nodes communicate through gateways and 
+proxies. 
+ 
+
+b) Devices with enough power and capacities to implement a stripped down IP stack or non -IP stack 
+
+
+ 
+These  devices  implement  either  an  optimized  IP  stack  and  directly  communicate  with  application 
+servers  (adoption model) or  go for an  IP or  non-IP stack and  communicate through  gateways and 
+proxies (adaptation model).  
+ 
+
+c) Devices  that  are  similar  to  generic  PCs  in  terms  of  computing  and  power  resources  but  have 
+constrained networking capacities, such as bandwidth  
+
+
+ 
+These nodes usually implement a full IP stack (adoption model), but network design and application 
+behaviours must cope with the bandwidth constraints.  
+
+
+ 
+The  costs  of  computing  power,  memory,  storage  resources,  and  power  consumption  are  generally 
+decreasing.  At  the  same  time,  networking  technologies  continue  to  improve  and  offer  more 
+bandwidth and reliability.  
+ 
+
+IP Versions 
+
+
+ 
+For  20+  years,  the  IETF  has  been  working  on  transitioning  the  Internet  from  IP  version  4 to  IP 
+version 6. 
+
+
+ 
+The main driving force has been the lack of address space in IPv4 as the Internet  has grown. 
+
+
+ 
+IPv6 has a much larger range of addresses that should not be exhausted for the  foreseeable future. 
+
+
+ 
+Today, both versions of IP run over the Internet, but most traffic is still IPv4 based.  
+
+
+ 
+A variety of factors dictate whether IPv4, IPv6, or both c an be used in an IoT solution.  
+
+
+ 
+Most often these factors include a legacy protocol or technology that supports only IPv4.  
+ 
+The following are some of the main factors applicable to IPv4 and IPv6 support in an IoT  solution: 
+ 
+
+Application Protocol 
+
+
+ 
+IoT devices implementing Ethernet or Wi-Fi interfaces can communicate over both IPv4 and IPv6, 
+but the application protocol may dictate the choice of the IP version.   
+
+
+ 
+For example, SCADA protocols such as DNP3/IP (IEEE 1815), Modbus TCP, or the IEC 60870-5-
+104 standards are specified only for IPv4.  
+ 
+
+Cellular Provider and Technology  
+
+
+ 
+IoT devices with cellular modems are dependent on the generation of the cellular technology as well 
+as the data services offered by the provider.  
+
+
+ 
+For  the  first  three  generations  of  data  services
+
+GPRS,  Edge,  and  3G
+
+IPv4  is  the  base  protocol 
+version. 
+ 
+Consequently, if IPv6 is used with these generations, it must be  tunnelled over IPv4. 
+
+
+ 
+On  4G/LTE  networks,  data  services  can  use  IPv4  or  IPv6  as  a  base  protocol,  depending  on  the 
+provider. 
+ 
+
+Serial Communications 
+
+
+ 
+Many legacy devices in certain industries, such as manufacturing and utilities, communicate through 
+serial lines Data is transferred using either proprietary or standards-based protocols, such as DNP3, 
+Modbus, or IEC 60870- 5-101. 
+
+
+ 
+In the past, communicating this serial data over any sort of distance could be handled by an analog 
+modem connection. 
+
+
+ 
+The serial port of the legacy device is connected to a nearby serial port on a piece of communications 
+equipment, typically a router. This local router then forwards the serial traffic over IP to the central 
+server for processing. 
+
+
+ 
+Encapsulation of serial protocols over IP leverages mechanisms such as raw socket TCP  or UDP. 
+ 
+
+IPv6 Adaptation Layer  
+
+
+ 
+While  the  most  common  physical  and  data  link  layers  (Ethernet,  Wi-Fi,  and  so  on)  stipulate 
+adaptation  layers  for  both  versions,  newer  technologies,  such  as  IEEE  802.15.4(Wireless  Personal 
+Area Network) only have an IPv6 adaptation layer specified.  
+
+
+ 
+This means that any device implementing a technology that requires an IPv6 adaptation layer must 
+communicate over an IPv6 -only sub network. 
+ 
+
+Q4. Illustrate with a neat block diagram, h ow to optimize IP for IOT using  Adaptation 
+Layer. Also examine the IOT protocol stack utilizing 6LoWPAN and an IP protocol 
+stack. 
+ 
+Answer 
+
+While the Internet Protocol is key for a successful Internet of Things, constrained nodes  and constrained 
+networks mandate optimization at various layers and on multiple  protocols of the IP architecture.  The 
+following figure highlights the TCP/IP layers wh ere optimization is applied.  
+ 
+ 
+Fig. Optimizing IP for IoT Using an Adaptation Layer
+  
+
+ 
+
+
+ 
+In the IP architecture, the transport of IP packets over any given Layer 1 (PHY) and Layer 2  (MAC) 
+protocol must be defined and documented.  
+
+
+ 
+The model for packaging IP int o lower-layer protocols is often referred to as an adaptation layer.  
+
+
+ 
+Unless the technology is proprietary, IP adaptation layers are typically defined by an IETF working 
+group and released as a Request for Comments (RFC).  
+
+
+ 
+An RFC is a publication from the IE TF that officially documents Internet standards, specifications, 
+protocols, procedures, and events.  
+
+
+ 
+For example, RFC 864 describes how an IPv4 packet gets encapsulated over an Ethernet frame, and 
+RFC 2464 describes how the same function is performed for an  IPv6 packet. 
+
+ 
+
+
+under the 6LoWPAN working group and its successor, the 6Lo working group.  
+
+
+ 
+The initial focus of the 6LoWPAN working group was to optimize the trans mission of IPv6 packets 
+over constrained networks such as IEEE 802.15.4.  
+ 
+A comparison of IoT protocol stack using the 6LoWPAN adaptation layer beside the well -known IP 
+protocol stack is presented below. 
+
+ 
+Fig. Comparison of an IoT Protocol Stack Utilizing  6LoWPAN and an IP Protocol Stack 
+ 
+ 
+
+Q5. Describe with a neat diagrams the header stacks of 6LoWPAN . Also compare 
+Mesh-Under and Mesh-Over routing. 
+ 
+Answer 
+
+
+ 
+The 6LoWPAN working group published several RFCs, but RFC 4994 is foundational because it 
+defines frame headers for the capabilities of header compression, fragmentation, and mesh 
+addressing. 
+
+
+ 
+These headers can be stacked in the adaptation layer to keep these concepts separate  while enforcing 
+a structured method for expressing each capability.  
+
+
+ 
+Depending on the implementation, all, none, or any combination of these capabilities and their 
+corresponding headers can be enabled.  
+
+
+ 
+The following figure shows some examples of typical 6LoWPAN header stacks.  The figure also 
+shows the sub headers related to compressio n, fragmentation, and mesh  addressing. 
+ 
+
+ Fig. 6LoWPAN Header Stacks 
+
+ 
+
+Header Compression
+  
+
+
+ 
+IPv6 header compression for 6LoWPAN was defined initially in RFC 4944 and subsequently 
+updated by RFC 6282.
+ 
+
+
+ 
+
+ -byte headers 
+
+ -
+byte headers down as low as 6 bytes combined in some cases.
+  
+
+
+ 
+Note that header compression for 6LoWPAN is only defined for an IPv6 header and not IPv4. The 
+6LoWPAN protocol does not support IPv4, and, in fact, there is n o standardized IPv4 adaptation 
+layer for IEEE 802.15.4.  
+
+
+ 
+6LoWPAN header compression is stateless, and conceptually it is not too complicated.  
+
+
+ 
+However, a number of factors affect the amount of compression, such as implementation of RFC 
+4944 versus RFC 6922, whether UDP is included and various IPv6 addressing scenarios.  
+
+
+ 
+At a high level, 6LoWPAN works by taking advantage of shared information known by all nodes 
+from their participation in the local network. In addition, it omits some standard header fields by 
+assuming commonly used values.  
+The following figure highlights an example that shows the amount of reduction that is possible with 
+6LoWPAN header compression.  
+
+ 
+ Fig. 6LoWPAN Header Compression 
+ 
+
+
+ 
+The top half of the figure shows a 6LoWPAN frame without any h eader compression enabled: The 
+full 40-byte IPv6 header and 8-byte UDP header are visible.
+  
+
+
+ 
+The 6LoWPAN header is only a single byte in this case.  
+
+
+ 
+Notice that uncompressed IPv6 and UDP headers leave only 53 bytes of data payload out of the 127 -
+byte maximum frame size in the case of IEEE 802.15.4.  
+
+
+ 
+The bottom half of the figure shows a frame where header compression has been enabled for a best -
+case scenario. 
+
+
+ 
+The 6LoWPAN header increases to 2 bytes to accommodate the compressed IPv6 header, and  UDP 
+has been reduced in half, to 4 bytes from 8. Most importantly, the header compression has allowed  
+the payload to more than double, from 53 bytes to 108 bytes, which is obviously much more 
+efficient. 
+
+ 
+
+Fragmentation 
+
+
+ 
+The maximum transmission unit (MTU) for an IPv6 networ k must be at least 1280 bytes.
+  
+
+
+ 
+The term 
+MTU 
+defines the size of the largest protocol data unit that can be passed.  
+
+
+ 
+For IEEE 802.15.4, 127 bytes is the MTU.  
+
+
+ 
+We can see that this is a problem because IPv6, with a much larger MTU, is carried inside the 
+802.15.4 frame with a much smaller one.  
+
+
+ 
+To remedy this situation, large IPv6 packets must be fragmented across multiple 802.15.4 frames at 
+Layer 2. 
+The following figure provides an overview of a 6LoWPAN fragmentation header.  
+ 
+ 
+  
+
+Fig. 6LoWPAN Fragmentation Header 
+
+ 
+
+
+ 
+The fragment header utilized by 6LoWPAN is composed of three primary fields: Datagram Size, 
+Datagram Tag, and Datagram Offset.  
+
+
+ 
+The 1-byte Datagram Size field specifies the total size of the unfragmented payload.  
+
+
+ 
+Datagram Tag identifies the set of fragme nts for a payload. 
+
+
+ 
+Finally, the Datagram Offset field delineates how far into a payload a particular fragment occurs.  
+
+ 
+
+Mesh Addressing  
+
+
+ 
+The purpose of the 6LoWPAN mesh addressing function is to forward packets over multiple hops.  
+
+
+ 
+Three fields are defined fo r this header: Hop Limit, Source Address, and Destination Address.  
+
+
+ 
+Analogous to the IPv6 hop limit field, the hop limit for mesh addressing also provides an upper limit 
+on how many times the frame can be forwarded.  
+
+
+ 
+Each hop decrements this value by 1 as it  is forwarded. Once the value hits 0, it is dropped and no  
+longer forwarded.
+ 
+
+
+ 
+The Source Address and Destination Address fields for mesh addressing are IEEE 802.15.4 
+addresses indicating the endpoints of an IP hop.
+  
+
+The following figure details the 6LoWPAN mesh addressing header fields.  
+ 
+ 
+Fig. 6LoWPAN Mesh Addressing Header  
+ 
+
+Mesh-Under Versus Mesh-Over Routing 
+
+
+ 
+For network technologies such as IEEE 802.15.4, IEEE 802.15.4g, and IEEE 1901.2a that support 
+mesh topologies and operate at the physical and data lin k layers, two main options exist for 
+establishing reachability and forwarding packets.  
+
+
+ 
+With the first option, mesh -under, the routing of packets is handled at  the 6LoWPAN adaptation 
+layer. 
+
+
+ 
+
+ -
+
+-
+
+ routing for getting packets to 
+their destination. 
+
+
+ 
+With mesh-under routing, the routing of IP packets leverages the 6LoWPAN mesh addressing header 
+to route and forward packets at the link layer.  
+
+
+ 
+The term 
+mesh-under
+ is used because multiple link layer hops  can be used to complete a single IP 
+hop. 
+
+
+ 
+Nodes have a Layer 2 forwarding table that they consult to route the packets to their final destination 
+within the mesh. 
+
+
+ 
+In mesh-over or route-over scenarios, IP Layer 33 routing is utilized for computing reachabili ty and 
+then getting packets forwarded to their destination, either inside or outside the mesh domain.
+  
+
+
+ 
+Each full-functioning node acts as an IP router, so each link layer hop is an IP hop.
+  
+
+ 
+
+ 
+
+Q6. What are the compliances on IoT network layer?  
+Answer 
+
+Leveraging the Internet Protocol suite for smart objects involves a collection of protocols and options that 
+must work in coordination with lower (Physical and Data link) and upper layers(application). Therefore 
+profile definitions, certifications, and promotion b y alliances can help implementers develop solutions that  
+guarantee interoperability of devices.  
+Here we look at some of the main industry organizations working on profile definitions and  certifications for 
+IoT constrained nodes and networks.  
+ 
+
+Internet Protocol for Smart Objects (IPSO) Alliance  
+
+
+ 
+Established in 2008, the Internet Protocol for Smart Objects (IPSO) Alliance has had its objective 
+evolve over years. 
+
+
+ 
+The alliance initially focused on promoting IP as the premier solution for smart objects 
+communications. 
+
+
+ 
+Today, it is more focused on how to use IP, with the IPSO Alliance organizing interoperability tests 
+between alliance members to validate that IP for smart objects can work together and properly 
+implement industry standards.  
+
+
+ 
+The IPSO Alliance does no t define technologies, as that is the role of the IETF and other standard 
+organizations, but it documents the use of IP -based technologies for various IoT use cases and 
+participates in educating the industry.
+  
+ 
+
+Wi-SUN Alliance 
+
+
+ 
+The Wi-SUN Alliance is an exam ple of efforts from the industry to define a communication profile 
+that applies to specific physical and data link layer protocols.  
+
+
+ 
+Currently, Wi-
+
+
+and secure IPv6 communicat ions with applications running over the UDP transport layer.  
+
+
+ 
+The utilities industry is the main area of focus for the Wi -SUN Alliance. 
+
+
+ 
+The Wi-SUN field area network (FAN) profile enables smart utility networks to provide resilient, 
+secure, and cost-effective connectivity with extremely good coverage in a range of topographic 
+environments, from dense urban neighbourhoods to  rural areas.
+ 
+
+ 
+
+Thread 
+
+
+ 
+A group of companies involved with smart object solutions for consumers created the Thread Group.  
+
+
+ 
+This group has defined an IPv6-based wireless profile that provides the best way to connect more 
+than 250 devices into a low -power, wireless mesh network.  
+
+
+ 
+The wireless technology used by Thread is IEEE 802.15.4, which is different from Wi -
+
+
+802.15.4g.
+ 
+
+ IPv6 Ready Logo 
+
+
+ 
+Initially, the IPv6 Forum ensured the promotion of IPv6 around the world.  
+
+
+ 
+Once IPv6 implementations became widely available, the need for interoperability and certification 
+led to the creation of the IPv6  Ready Logo program. 
+
+
+ 
+The IPv6 Core and specific  IPv6 components, such as DHCP, IPsec, and customer edge router 
+certifications, are in place.  
+
+
+ 
+These certifications have industry -wide recognition, and many products are already certified.  
+
+
+ 
+An IPv6 certification effort specific to IoT is currently under def inition for the program.
+ 
+
+ 
+Q7. Write a note on RPL  
+ 
+Answer 
+
+
+ 
+The IETF chartered the RoLL (Routing over Low -Power and Lossy Networks) working group to 
+evaluate all Layer 3 IP routing protocols and determine the needs and requirements for developing a 
+routing solution for IP smart objects.  
+
+
+ 
+After study of various use cases and a survey of existing protocols, the consensus was that a new 
+routing protocol should be developed for use by IP smart objects, given the characteristics  and 
+requirements of constrained netw orks. 
+
+
+ 
+This new distance-vector routing protocol was named the IPv6  Routing Protocol for Low Power and 
+Lossy Networks (RPL).
+ 
+
+
+ 
+In an RPL network, each node acts as a router and becomes part of a mesh network.  
+
+
+ 
+Routing is performed at the IP layer. Each node ex amines every received IPv6 packet and determines 
+the next-hop destination based on the information contained in the IPv6 header.
+  
+
+ 
+RPL defines two modes of working : 
+
+
+ 
+Storing mode :
+ All nodes contain the full routing table of the RPL domain. Every node knows  how 
+to directly reach every other node.  
+
+
+ 
+Non-storing mode :
+ Only the border router(s) of the RPL domain contain(s) the full routing table. 
+All other nodes in the domain only maintain their list of parents and use this as a list of default routes 
+toward the border router. This abbreviated routing table saves memory space and CPU.  
+ 
+RPL is based on the concept of a directed acyclic graph (DAG). A DAG is a directed graph where no cycles 
+exist. This means that from any vertex or point in the graph, you cannot fol low an edge or a line back to this 
+same point. 
+
+ 
+Fig. Example of a Directed Acyclic Graph (DAG)  
+ 
+
+
+ 
+A basic RPL process involves building a destination -oriented directed acyclic graph (DODAG).
+  
+
+
+ 
+A DODAG is a DAG rooted to one destination.  
+
+
+ 
+In RPL, this destination occurs at a border router known as the DODAG root.  
+ 
+The following figure compares a DAG and a DODAG. We  can see that that a DAG has multiple  roots, 
+whereas the DODAG has just one.  
+  
+Fig. DAG and DODAG Comparison 
+
+ 
+
+
+ 
+In a DODAG, each node maintains up to th ree parents that provide a path to the root.
+  
+
+
+ 
+Typically, one of these parents is the preferred parent, which means it is the preferred next hop for 
+upward routes toward the root.
+ 
+
+
+ 
+Upward routes in RPL are discovered and configured using DAG Information Objec t (DIO) 
+messages. 
+
+
+ 
+Nodes listen to DIOs to handle changes in the topology that can affect routing.  
+
+
+ 
+The information in DIO  messages determines parents and the best path to the DODAG root.  
+
+
+ 
+Nodes establish downward routes by advertising their parent set toward  the DODAG root using a 
+Destination Advertisement Object (DAO) message.  
+
+
+ 
+DAO messages allow nodes to inform their parents of their presence and reachability to descendants.
+  
+
+
+ 
+In the case of the non-storing mode of RPL, nodes sending DAO messages report their  parent sets 
+directly to the DODAG root (border router), and only the root stores the routing information.  
+
+
+ 
+For storing mode, each node keeps track of the routing information that is advertised in the DAO 
+messages.
+ 
+
+
+ 
+While this is more power - and CPU-intensive for each node, the benefit is that packets can take 
+shorter paths between destinations in the mesh.  
+ 
+The following figure gives an overview of RPL.  
+ 
+Fig. RPL Overview 
+
+ 
+
+RPL Metrics 
+
+RPL defines a large and flexible set of new metrics and constraints for ro uting in RFC 6551. Some of them 
+are: 
+
+Expected Transmission Count (ETX) 
+
+Assigns a discrete value to the number of transmissions  a node expects to make to deliver a packet.
+  
+
+Hop Count 
+
+Tracks the number of nodes traversed in a path. Typically, a path with a lo wer hop count is chosen over a 
+path with a higher hop count.
+  
+
+Latency 
+
+Varies depending on power conservation. Paths with a lower latency are preferred.  
+
+ 
+
+Link Quality Level 
+
+Measures the reliability of a link by taking into account packet error rates  caused by factors such as signal 
+attenuation and interference.  
+
+Link Color 
+
+Allows manual influence of routing by administratively setting values to make a link  more or less desirable. 
+These values can be either statically or dynamically adjusted for specific  traffic types.
+ 
+
+Node  State  and Attribute  
+
+Identifies nodes that function as traffic aggregators and nodes that  are being impacted by high workloads. 
+High workloads could be indicative of nodes that have  incurred high CPU or low memory states. Naturally, 
+nodes that are aggregators are preferred over  nodes experiencing high workloads.  
+
+Node  Energy 
+
+Avoids nodes with low power, so a battery -powered node that is running out of  energy can be avoided and 
+the life of that node and the network can be prolonged.  
+
+Throughput 
+
+Provides the amount of throughput for a node link. Often, nodes conserving power  use lower throughput. 
+This metric allows the prioritization of paths with higher throughput.  
+ 
+
+Q8. Write a short note on Transport layer.  
+
+ 
+
+Answer 
+
+There are two main protocols specified for the transport layer:  
+
+ 
+Transmission Control Protocol (TCP)  
+
+This connection-oriented protocol requires a session to  get established between the source and destination 
+before exchanging data. You can view it as an  equivalent to a traditional te lephone conversation, in which 
+two phones must be connected and the  communication link established before the parties can talk.  
+ 
+
+User Datagram Protocol (UDP)  
+
+With this connectionless protocol, data can be quickly sent between source and destination
+ 
+but with no 
+guarantee of delivery. This is analogous to the traditional mail delivery system, in which a letter is mailed to 
+a destination. Confirmation of the reception of this letter does not happen until another letter is sent in 
+response. 
+ 
+
+
+ 
+TCP is the main protocol used at the transport layer.  
+
+
+ 
+This is largely due to its inherent characteristics, such as its ability to transport large volumes of data 
+into smaller sets of packets.  
+
+
+ 
+In addition, it ensures reassembly in a correct sequence, flow control and retransm ission of lost 
+packets.  
+
+
+ 
+In contrast, UDP is most often used in the context of network services, such as Domain Name 
+System (DNS), Network Time Protocol (NTP), Simple Network Management Protocol (SNMP) or 
+for real-time data traffic, including voice and vid eo over IP. 
+
+
+ 
+In these cases, performance and latency are more important than packet retransmissions because re -
+sending a lost voice or video packet does not add value.  
+
+
+ 
+When considering the choice of a transport layer protocol, it is recommended to evaluate  the impact 
+of this choice on both the lower and upper layers of the stack.  
+
+
+ 
+For example, most of the industrial application layer protocols are implemented over TCP.  
+
+
+ 
+The reason for this is that often these industrial application layer protocols are older an d were 
+deployed when data link layers were often unreliable and called for error protection.  
+
+
+ 
+While the use of TCP may not strain generic compute platforms and high -data-rate networks, it can 
+be an overhead sometimes.  
+
+
+ 
+Consider an IoT device needs to send on ly a few bytes of data per transaction.  
+
+
+ 
+When using TCP, each packet needs to add a minimum of 20 bytes of TCP overhead, while UDP 
+adds only 8 bytes. 
+
+
+ 
+TCP also requires the establishment and potential maintenance of an open logical channel.   
+ 
+Also Low-power and Lossy Networks(LLNs), may not cope well with supporting large numbers of 
+TCP sessions. 
+
+
+ 
+This may explain why a new IoT application protocol, such as Constrained Application Protocol 
+(CoAP) and industrial application layer protocols may call for the adopt ion of the UDP. 
+ 
+For example, the Device Language Message Specification/Companion Specification for Energy Metering 
+(DLMS/COSEM) application layer protocol, a popular protocol for reading smart meters in the utilities 
+space, is the de facto standard in Eur ope. Adjustments or optimizations to this protocol should be made 
+depending on the IoT transport protocols that are present in the lower layers. For example, if you compare 
+the transport of DLMS/COSEM over a cellular network versus an LLN deployment, you s hould consider the 
+following:  
+ 
+a)
+ 
+Select TCP for cellular networks because these networks are typically more robust and can handle 
+the overhead. For LLNs, UDP is a better choice and often mandatory.  
+b)
+ 
+With respect to session establishment, Long Association is  suitable for LLN. Long association means 
+that a session stays active for a long time period. This is better because the communications overhead 
+necessary to keep a session established is much less than what is required to open and close many 
+separate sessions over the same time period. On the other hand, for cellular networks, a short 
+association is better. 
+c)
+ 
+When transferring large amounts of DLMS/COSEM data, cellular links are preferred. Smaller 
+amounts of data can be handled efficiently over LLNs. Because  packet loss ratios are generally 
+higher on LLNs than on cellular networks, keeping the data transmission amounts small over LLNs 
+limits the retransmission of large numbers of bytes.  
+ 
+Multicast requirements are also impacted by the protocol selected for the  transport layer. With multicast, a 
+single message can be sent to multiple IoT devices. Multicast utilizes UDP exclusively.  
+ 
+In summary, TCP and UDP are the two main choices at the transport layer for the TCP/IP protocol. The  
+performance and scalability of  IoT constrained devices and networks is impacted by which one of these is  
+selected. 
+ 
+ 
+
+Q9. Demonstrate IOT Data broker with respect to application Layer protocol not 
+present. 
+ 
+Answer 
+
+
+ 
+IETF class 0 devices send or receive only a few bytes of data.  
+
+
+ 
+For myriad reasons, such as processing capability, power constraints, and cost, these devices do not 
+implement a fully structured network protocol stack, such as IP, TCP, or UDP, or even an application 
+layer protocol. 
+
+
+ 
+Class 0 devices are usually simple smart object s that are severely constrained.  
+
+
+ 
+Implementing a robust protocol stack is usually not useful and sometimes not even possible with the 
+limited available resources.  
+ 
+
+Example 
+
+
+ 
+For example, consider low -cost temperature and relative humidity (RH) sensors sending  data over an 
+LPWA LoRaWAN infrastructure.  
+
+
+ 
+Temperature is represented as 2 bytes and RH as another 2 bytes of data.  
+
+
+ 
+Therefore, this small data payload is directly transported on top of the LoRaWAN MAC layer, 
+without the use of TCP/IP.  
+
+
+ 
+While many constrained devices, such as sensors and actuators, have adopted deployments that have 
+no application layer, this transportation method has not been standardized.  
+
+
+ 
+This lack of standardization makes it difficult for generic implementations of this transport method to  
+be successful from an interoperability perspective.  
+ 
+If we consider expanding  the above scenario to different kinds of temperature sensors from different 
+manufacturers, these sensors will report temperature data in varying formats.  
+
+
+ 
+A temperature value will  always be present in the data transmitted by each sensor, but decoding this 
+data will be vendor specific.  
+
+
+ 
+If we scale this scenario to across hundreds or thousands of sensors, the problem of allowing various 
+applications to receive and interpret temperatu re values delivered in different formats becomes 
+increasingly complex. 
+
+
+ 
+The solution to this problem is to use an IoT Data B roker. 
+
+
+ 
+An IoT data broker is a piece of middleware that standardizes sensor output into a common format 
+that can then be retrieved by  authorized applications. 
+ 
+ 
+Fig. IoT Data Broker 
+ 
+
+
+ 
+In the above figure, Sensors X, Y, and Z are all temperature sensors, but their output is encoded 
+differently. 
+
+
+ 
+The IoT data broker understands the different formats in which the temperature is encoded and  is 
+therefore able to decode this data into a common, standardized format.  
+
+
+ 
+Applications A, B, and C can access this temperature data without having to deal with decoding 
+multiple temperature data formats.
+  
+
+ 
+
+Q10. Discuss tunnelling Legacy SCADA over IP netwo rk. 
+ 
+Answer 
+
+
+ 
+Deployments of legacy industrial protocols, such as DNP3 and other SCADA protocols, in modern 
+IP networks call for flexibility when integrating several generations of devices or operations.  
+
+
+ 
+Ideally, end-to-end native IP support is preferred, us ing a solution like IEEE 1815 -2012 in the case 
+of DNP3. 
+
+
+ 
+Otherwise, transport of the original serial protocol over IP can be achieved either by tunneling using 
+raw sockets over TCP or UDP or by installing an intermediate device that performs protocol 
+translation between the serial protocol version and its IP implementation.  
+
+
+ 
+A raw socket connection simply denotes that the serial data is being packaged directly into a TCP or 
+UDP transport. 
+
+ 
+A socket in this instance is a standard application programming interfa ce (API) composed of an IP 
+address and a TCP or UDP port that is used to access network devices over an IP network.  
+
+
+ 
+More modern industrial application servers may support this capability, while older versions 
+typically require another device or piece of so ftware to handle the transition from pure serial data to 
+serial over IP using a raw socket.
+  
+ 
+
+The following figure details raw socket scenarios for a legacy SCADA server trying to communicate  with 
+remote serial devices. 
+
+ 
+Fig. Raw Socket TCP or UDP Scenarios for Legacy Industrial Serial Protocols 
+ 
+
+
+ 
+In all the scenarios in the above figure, notice that routers connect via serial interfaces to the remote 
+terminal units (RTUs), which are often associated with SCADA networks.  
+
+
+ 
+An RTU is a multipurpose device used  to monitor and control various systems, applications.  
+
+
+ 
+From the master/slave perspective, the RTUs are the slaves.  
+
+
+ 
+Opposite the RTUs is a SCADA server, or master, that varies its connection type.
+   
+
+ 
+
+Scenario A 
+
+
+ 
+Here both the SCADA server and the RTUs have a d irect serial connection to their  respective 
+routers. 
+
+
+ 
+The routers terminate the serial connections at both ends of the link and use raw socket  encapsulation 
+to transport the serial payload over the IP network.
+  
+
+ 
+
+ 
+Scenario B 
+
+
+ 
+Scenario B has a small change on t he SCADA server side. 
+
+
+ 
+A piece of software is installed on the SCADA server that maps the serial COM ports to IP ports.  
+
+
+ 
+This software is commonly referred to as an IP/serial  redirector.
+ 
+
+
+ 
+The IP/serial redirector in essence terminates the serial connection of  the SCADA server and 
+converts it to a TCP/IP port using a raw socket connection.  
+ 
+
+Scenario C 
+
+
+ 
+Here the SCADA server supports native raw socket capability.
+  
+
+
+ 
+Unlike in Scenarios A and B, where a router or IP/serial redirector software has to map the SCADA 
+se
+
+
+connections.
+ 
+ 
+
+Q11. Compare CoAP and MQTT with some factors.  
+ 
+Answer 
+ 
+
+  
+ 
+
+ 
+ 
+ 
+ 
+ 
+Q12. Discuss CoAP Me ssage format. Also elaborate on  CoAP communications acros s 
+an IoT infrastructure .
+ 
+
+ 
+Answer 
+
+
+ 
+Constrained Application Protocol (CoAP) resulted from the IETF Constrained RESTful 
+
+
+
+and networks. 
+
+
+ 
+The IETF CoRE working group ha s published multiple standards -track specifications for CoAP, 
+including the following:
+  
+
+   
+RFC 6690:
+ Constrained RESTful Environments (CoRE) Link Format  
+   
+RFC 7252:
+ The Constrained Application Protocol (CoAP)
+  
+
+   
+RFC 7641:
+ Observing Resources in the Constra ined Application Protocol (CoAP)  
+   
+RFC 7959:
+ Block-Wise Transfers in the Constrained Application Protocol (CoAP)
+  
+
+   
+RFC 8075:
+ Guidelines for Mapping Implementations: HTTP to the Constrained Application  
+       Protocol (CoAP) 
+
+
+ 
+The CoAP messaging model is pr imarily designed to facilitate the exchange of messages over UDP 
+between endpoints.
+ 
+
+ 
+CoAP Message Format 
+
+From a formatting perspective, a CoAP message is composed of   
+
+
+ 
+A short fixed-length Header field (4  bytes) 
+
+
+ 
+A variable-length but mandatory Token field ( 0
+
+8 bytes) 
+
+
+ 
+Options fields if necessary  
+
+
+ 
+Payload field.
+ 
+ 
+Fig. CoAP Message Format 
+ 
+ Table. CoAP Message Fields 
+
+CoAP communications across an IoT infrastructure  
+
+
+ 
+CoAP communications across an IoT infrastructure can take various paths.  
+
+
+ 
+Connections can be betw een devices located on the same or different constrained networks or 
+between devices and generic Internet or cloud servers, all operating over IP.  
+
+
+ 
+Proxy mechanisms are also defined, and RFC 7252 details a basic HTTP mapping for CoAP.  
+
+
+ 
+As both HTTP and CoAP  are IP-based protocols, the proxy function can be located practically 
+anywhere in the network, not necessarily at the border between constrained and non -constrained 
+networks. 
+
+
+ 
+The CoAP request/response semantics include the methods GET, POST, PUT, and DELET E.
+ 
+ 
+The following figure represents  CoAP communications across an IoT infrastructure . 
+ 
+ 
+Fig. CoAP communications across an IoT infrastructure  
+
+ 
+ 
+Q13. Discuss MQTT Publish/Subscribe Framework. Also explain  MQTT Message 
+format. 
+ 
+Answer 
+
+
+ 
+At the end of the 1990s, engineers from IBM and Arcom were looking for a reliable, lightweight, and 
+cost-effective protocol to monitor and control a large number of sensors and their data from a central 
+server location. 
+
+
+ 
+Their research resulted in the development and implementa tion of the Message Queuing Telemetry 
+Transport (MQTT) protocol.
+  
+
+
+ 
+MQTT is an extremely simple protocol with only a few options designed, with considerations for 
+constrained nodes, unreliable WAN backhaul communications, and bandwidth constraints with 
+variable latencies. 
+
+
+ 
+These were some of the rationales for the selection of a client/server and publish/subscribe 
+framework based on the TCP/IP architecture, as shown in the following figure.
+  
+
+ Fig. MQTT Publish/Subscribe Framework 
+
+
+ 
+An MQTT client can act as a pub lisher to send data to an MQTT server acting as an MQTT message 
+broker. 
+
+
+ 
+In the example above, the MQTT client on the left side is a temperature and relative humidity sensor 
+that publishes its Temp/RH data.  
+
+
+ 
+The MQTT server accepts the network connection alo ng with application messages, such as 
+Temp/RH data, from the publishers.  
+
+
+ 
+It also handles the subscription and unsubscription process and pushes the application data to MQTT 
+clients acting as subscribers.  
+
+
+ 
+The application on the right side of above figure is  an MQTT client that is a subscriber to the 
+Temp/RH data being generated by the publisher or sensor on the left.  
+
+
+ 
+With MQTT, clients can subscribe to all data  or specific data from the information tree of a 
+publisher.  
+
+
+ 
+In addition, the presence of a message broker in MQTT decouples the data  transmission between 
+clients acting as publishers and subscribers.  
+
+
+ 
+In fact, publishers and subscribers do  not even know (or need to know) about each other.  
+
+
+ 
+A benefit of having this decoupling is that the MQTT  message broker ensures that information can 
+be buffered and cached in  case of network failures. 
+
+
+ 
+This also means that publishers and subscribers do not hav e to be online at the same time.
+  
+
+ 
+
+MQTT Message Format  
+
+ 
+Fig. MQTT Message Format 
+ 
+
+
+ 
+Compared to the CoAP message format,  MQTT contains a smaller header  of 2 bytes compared to 4 
+bytes for CoAP. 
+
+
+ 
+The first MQTT field in the header is Message Type, which  identifies the kind of MQTT packet 
+within a message. 
+
+
+ 
+Fourteen different types of control packets are  specified in MQTT version 3.1.1.  
+
+
+ 
+Each of them has a unique value that is coded into the Message  Type field.
+ 
+
+
+ 
+Note that values 0 and 15 are reserved.
+  
+
+
+ 
+The next field in the MQTT header is DUP (Duplication Flag).
+  
+
+
+ 
+This flag, when set, allows the client to  notate that the packet has been sent previously, but  an 
+acknowledgement was not received.
+  
+
+
+ 
+The QoS header field allows for the selection of three different QoS levels.
+  
+
+
+ 
+The next field is the Retain flag. Only found in a PUBLISH message , the Retain flag notifies the 
+server to hold onto the message data. 
+
+
+ 
+The last mandatory field in the MQTT message header is Remaining Length. This field specifies the  
+number of bytes in the MQTT packet following this field.
+  
+
+ 
+ 
+ 
+ 
+ 
+MQTT message types are summarized in  the following table. 
+ 
+
+ 
+Table. MQTT Message types 
